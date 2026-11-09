@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add Packagist publishing",
+  "context": "Release is tag-only today.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a tag-triggered publish path.",
+    "expected_outcome": "A v* tag produces a release.",
+    "acceptance_criteria": [
+      "Publish steps are documented",
+      "Token scope is explicit"
+    ]
+  },
+  "attempts": []
+}

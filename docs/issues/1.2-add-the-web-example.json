@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add the web example",
+  "context": "The example is a reference only.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Make the example run against the library.",
+    "expected_outcome": "A contributor can run the demo.",
+    "acceptance_criteria": [
+      "Example runs",
+      "Example is excluded from publish"
+    ]
+  },
+  "attempts": []
+}

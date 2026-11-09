@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze Composer identity",
+  "context": "The package name and PSR-4 namespace are the public contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review composer.json and document the package name.",
+    "expected_outcome": "Consumers use one stable package.",
+    "acceptance_criteria": [
+      "Name is documented",
+      "PHPUnit passes"
+    ]
+  },
+  "attempts": []
+}

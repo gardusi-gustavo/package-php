@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add a lockfile",
+  "context": "The package has no committed Composer lock.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Generate and commit composer.lock.",
+    "expected_outcome": "composer install is reproducible.",
+    "acceptance_criteria": [
+      "Lockfile exists",
+      "CI uses it"
+    ]
+  },
+  "attempts": []
+}

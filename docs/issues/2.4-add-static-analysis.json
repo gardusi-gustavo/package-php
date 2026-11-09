@@ -1,0 +1,18 @@
+{
+  "rank": "2.4",
+  "title": "Add static analysis",
+  "context": "There is no PHP static analysis.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add PHPStan or Psalm.",
+    "expected_outcome": "Type errors fail CI.",
+    "acceptance_criteria": [
+      "Analyzer runs",
+      "Baseline is documented"
+    ]
+  },
+  "attempts": []
+}
